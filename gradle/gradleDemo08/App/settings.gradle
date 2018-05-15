@@ -1,0 +1,5 @@
+rootProject.name = 'gradleDemo08'
+includeFlat 'Core'
+findProject(':Core')?.name = 'gradleDemo08'
+rootProject.name = 'gradleDemo08'
+
